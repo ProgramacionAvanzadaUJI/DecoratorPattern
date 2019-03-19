@@ -12,6 +12,6 @@ public class ConTechoSolar extends Extra {
 
     @Override
     public String descripcion() {
-        return descripcionVehiculo() + ", con techo solar";
+        return super.descripcion() + ", con techo solar";
     }
 }

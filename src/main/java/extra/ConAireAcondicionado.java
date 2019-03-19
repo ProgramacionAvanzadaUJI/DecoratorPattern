@@ -12,6 +12,6 @@ public class ConAireAcondicionado extends Extra {
 
     @Override
     public String descripcion() {
-        return descripcionVehiculo() + ", con aire acondicionado";
+        return super.descripcion() + ", con aire acondicionado";
     }
 }

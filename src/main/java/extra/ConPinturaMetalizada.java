@@ -12,6 +12,6 @@ public class ConPinturaMetalizada extends Extra {
 
     @Override
     public String descripcion() {
-        return descripcionVehiculo() + ", con pintura metalizada";
+        return super.descripcion() + ", con pintura metalizada";
     }
 }

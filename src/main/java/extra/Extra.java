@@ -18,7 +18,8 @@ public abstract class Extra extends Vehiculo {
         return vehiculo.getPrecio() + super.getPrecio();
     }
 
-    public String descripcionVehiculo() {
+    @Override
+    public String descripcion() {
         return vehiculo.descripcion();
     }
 }

@@ -18,5 +18,6 @@ public class FamiliarTest {
         assertThat(vehiculo.getPrecio(), is(19600.0f));
         vehiculo = new ConTechoSolar(vehiculo, 1000);
         assertThat(vehiculo.getPrecio(), is(20600.0f));
+        System.out.println(vehiculo.descripcion());
     }
 }
