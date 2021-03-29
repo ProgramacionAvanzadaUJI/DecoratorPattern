@@ -1,10 +1,7 @@
 package vehiculo;
 
-/**
- * Created by oscar on 23/03/16.
- */
 public class Utilitario extends Vehiculo {
-    public Utilitario(float precio) {
+    public Utilitario(double precio) {
         super(precio);
     }
 

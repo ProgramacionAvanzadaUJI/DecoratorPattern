@@ -1,10 +1,7 @@
 package vehiculo;
 
-/**
- * Created by oscar on 23/03/16.
- */
 public class Familiar extends Vehiculo {
-    public Familiar(float precio) {
+    public Familiar(double precio) {
         super(precio);
     }
 

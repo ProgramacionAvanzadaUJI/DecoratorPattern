@@ -2,11 +2,8 @@ package extra;
 
 import vehiculo.Vehiculo;
 
-/**
- * Created by oscar on 23/03/16.
- */
 public class ConTechoSolar extends Extra {
-    public ConTechoSolar(Vehiculo vehiculo, float precioExtra) {
+    public ConTechoSolar(Vehiculo vehiculo, double precioExtra) {
         super(vehiculo, precioExtra);
     }
 

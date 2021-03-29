@@ -1,16 +1,13 @@
 package vehiculo;
 
-/**
- * Created by oscar on 23/03/16.
- */
 public abstract class Vehiculo {
-    private float precio;
+    private double precio;
 
-    public Vehiculo(float precio) {
+    public Vehiculo(double precio) {
         this.precio = precio;
     }
 
-    public float getPrecio() {
+    public double getPrecio() {
         return precio;
     }
 

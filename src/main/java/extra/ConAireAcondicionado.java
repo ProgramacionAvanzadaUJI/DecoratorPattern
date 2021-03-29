@@ -2,11 +2,8 @@ package extra;
 
 import vehiculo.Vehiculo;
 
-/**
- * Created by oscar on 23/03/16.
- */
 public class ConAireAcondicionado extends Extra {
-    public ConAireAcondicionado(Vehiculo vehiculo, float precioExtra) {
+    public ConAireAcondicionado(Vehiculo vehiculo, double precioExtra) {
         super(vehiculo, precioExtra);
     }
 
